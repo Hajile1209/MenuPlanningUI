@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="MenuPlanning">
+      <HintPath>..\..\MenuPlanningLogic\MenuPlanningDL\bin\Debug\net7.0\MenuPlanning.dll</HintPath>
+    </Reference>
+    <Reference Include="MenuPlanningBL">
+      <HintPath>..\..\MenuPlanningLogic\MenuPlanningDL\bin\Debug\net7.0\MenuPlanningBL.dll</HintPath>
+    </Reference>
+    <Reference Include="MenuPlanningDL">
+      <HintPath>..\..\MenuPlanningLogic\MenuPlanningDL\bin\Debug\net7.0\MenuPlanningDL.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
+</Project>
